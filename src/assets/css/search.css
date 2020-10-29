@@ -19,3 +19,11 @@
     cursor: pointer;
     fill: gray;
 }
+
+#hintPlaceholder{
+    color: gray;
+    font-size: 12px;
+    float: left;
+    margin-top: 6px;
+    display: contents;
+}

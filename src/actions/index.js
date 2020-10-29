@@ -37,10 +37,10 @@ export const toggleNewDataAlert = () => dispatch => {
 export const updateSearchTerm = (term, socket) => dispatch => {
     if(_isEmpty(term) || _isUndefined(term)){
         dispatch({type: actionTypes.UPDATE_SEARCH_TERM, value: ""})
-        // dispatch(searchTerm(term, socket))
+        dispatch(searchTerm(term, socket))
     }else{
         dispatch({type: actionTypes.UPDATE_SEARCH_TERM, value: term.target.value})
-        // dispatch(searchTerm(term.target.value, socket))
+        dispatch(searchTerm(term.target.value, socket))
     }
 }
 

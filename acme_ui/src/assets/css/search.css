@@ -1,0 +1,21 @@
+#search-input{
+    margin-top: 2% !important;
+    margin: auto;
+    width: 70%;
+}
+
+#search-btn{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.MuiSnackbarContent-root{   
+     background-color: #2b994d !important;
+     font-size: 15px;
+}
+
+#input-clear-icon{
+    cursor: pointer;
+    fill: gray;
+}

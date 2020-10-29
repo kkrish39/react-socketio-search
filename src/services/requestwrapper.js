@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const client = axios.create({
-    baseURL: "http://localhost:8080"
+    baseURL: "https://socket-io-node-search.herokuapp.com"
 });
 
 const request = function (options) {

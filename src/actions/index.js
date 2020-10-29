@@ -19,7 +19,7 @@ export const searchTerm = (query, socket) => {
 }
 
 export const updateSocket = (term, socket) => async dispatch =>{
-    socket = socketIOClient("http://localhost:8080",{query:`searchId=${term}`});
+    socket = socketIOClient("https://socket-io-node-search.herokuapp.com",{query:`searchId=${term}`});
     socket.on("FromAPI", data => {
         if(data.isUpdated){
           dispatch({ type: actionTypes.SEARCH_ITEM, value: data.updatedData})

@@ -2,6 +2,10 @@
   "name": "acme_search",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.16.x",
+    "npm": "6.x"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -38,6 +42,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "proxy": "http://localhost:3000"
   }
 }

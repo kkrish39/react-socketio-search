@@ -58,7 +58,3 @@ This project consists of two repositories
 4) LAUNCH, JOIN, REACH OUT are only dummy buttons
 
 5) Trade-off between normalizing the data and adding a separate code segment to build UI for each source. I chose the approach not normalize and using separate code components. 
-
-
-# Future works
-    - I didn't work on UI test cases. I would use Jest/Chai.

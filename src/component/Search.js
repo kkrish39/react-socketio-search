@@ -37,7 +37,7 @@ const Search = (props) => {
         />
        <div id="hintPlaceholder">* hint: seach for acme/carol/john/bob/lunch/slack/dropbox/calendar/contacts/roe for sample results</div>
         {/** Commented this code in-case we need a search  */}
-        {/* <Button id="search-btn" variant="outlined" onClick={() => props.onSearchClick(props.term, props.socket)}>search</Button> */}
+        <Button id="search-btn" variant="outlined" onClick={() => props.onSearchClick(props.term, props.socket)}>search</Button>
         <Snackbar
             className="snackbar-success"
             open={props.isNewData}

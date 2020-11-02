@@ -1,14 +1,14 @@
 This project consists of two repositories
 
 # About the Project
-- #acme_api (Backend)
+- #socket-io-node (Backend)
     - To handle the search query and to enable dynamic data update
     - Tenchnologies
         - Node.js
         - Express
         - socket.io
 
-- #acme_ui (Frontend)
+- #react-socketio-search (Frontend)
     - To enable search interface and to display search results
     - Technologies
         - React & Redux
@@ -16,15 +16,6 @@ This project consists of two repositories
         - lodash (Object manipulations)
         - moment (Formatting date fields)
         - socket.io (To enable real-time data update)
-
-# Steps to run the project
-- #acme_api (Backend)
-    - Move to /acme_api repo
-    - run npm install followed by npm start
-
-- #acme_ui (Backend)
-    - Move to /acme_ui repo
-    - run npm install followed by npm start
 
 # Demo Link
 - https://drive.google.com/file/d/1biBRajuErctQJUOeUBrlA-Myg9eWW6We/view?usp=sharing

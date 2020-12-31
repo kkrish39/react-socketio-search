@@ -1,7 +1,7 @@
 This project consists of two repositories
 
 # About the Project
-- #socket-io-node (Backend)
+- #[socket-io-node](https://github.com/kkrish39/socket-io-node) (Backend)
     - To handle the search query and to enable dynamic data update
     - Tenchnologies
         - Node.js
